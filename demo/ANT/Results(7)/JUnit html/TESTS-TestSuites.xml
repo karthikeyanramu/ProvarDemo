@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="2" time="137.299" timestamp="Fri Apr 23 14:51:05 IST 2021">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="INFO" />
+
+		      <property name="webBrowserType" value="Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Account API.testcase" name="Account API.testcase" time="7.405">
+	</testcase>
+
+	    <testcase classname="tests/Test Case 2.testcase" name="Test Case 2.testcase" time="126.439">
+	</testcase>
+
+  </testsuite>
+</testsuites>

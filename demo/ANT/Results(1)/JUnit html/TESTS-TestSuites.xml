@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="24" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="1" tests="25" time="22.478" timestamp="Fri Apr 23 13:51:41 IST 2021">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="INFO" />
+
+		      <property name="webBrowserType" value="Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Other Sample Test\Batch Level execution (Run folder)\Test Case 1.setup" name="Test Case 1.setup" time="4.777">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Batch Level execution (Run folder)\Test Case 2.testcase" name="Test Case 2.testcase" time="0.732">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Batch Level execution (Run folder)\Test Case 3.testcase" name="Test Case 3.testcase" time="0.561">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Create Account, Opp, Contact\Create via API.testcase" name="Create via API.testcase" time="0.726">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Create Account, Opp, Contact\Create via UI.testcase" name="Create via UI.testcase" time="0.656">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Data Cleaning\Delete Provar Test Accounts.testcase" name="Delete Provar Test Accounts.testcase" time="0.804">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Excel read and callable test\API Callable.testcase" name="API Callable.testcase" time="0.709">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Excel read and callable test\API ReadExcel.testcase" name="API ReadExcel.testcase" time="1.056">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Service Cloud\Create Opportunity From Existing Account.testcase" name="Create Opportunity From Existing Account.testcase" time="0.566">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\Validation Rule\New Opportunity and validation rule.testcase" name="New Opportunity and validation rule.testcase" time="0.775">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\VF Test Case\VF Product Selector.testcase" name="VF Product Selector.testcase" time="0.76">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\WebServiceCall - Rest &amp; Soap\SFCaseWebServices.testcase" name="SFCaseWebServices.testcase" time="0.694">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Other Sample Test\WebServiceCall - Rest &amp; Soap\SFRestService.testcase" name="SFRestService.testcase" time="0.701">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="0.717">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="0.721">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 4 Create Opportunity2.testcase" name="Lesson 4 Create Opportunity2.testcase" time="0.985">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 5 Log a Call.testcase" name="Lesson 5 Log a Call.testcase" time="0.67">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 6 Callable Create Opportunity.testcase" name="Lesson 6 Callable Create Opportunity.testcase" time="0.987">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 6 Manage Account.testcase" name="Lesson 6 Manage Account.testcase" time="0.715">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 1 and 2 - Create Account.testcase" name="Exercise 1 and 2 - Create Account.testcase" time="0.71">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 3 Create Case.testcase" name="Exercise 3 Create Case.testcase" time="0.681">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 4 Create Case2.testcase" name="Exercise 4 Create Case2.testcase" time="0.703">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 5 Create Account and Contact.testcase" name="Exercise 5 Create Account and Contact.testcase" time="0.687">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 6 API Create Account.testcase" name="Exercise 6 API Create Account.testcase" time="0.671">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 6 Callable Create Case.testcase" name="Exercise 6 Callable Create Case.testcase" time="0.634">
+		      <failure message="Execution failed"><![CDATA[Connection exception while opening Partner connection. Connection name: Admin, environment: <default>, authEndpoint: https://test.salesforce.com/services/Soap/u/50.0, userName: kramu711@provar.trialsbx1, password: [empty], securityToken: [empty]]]></failure>
+
+	    </testcase>
+
+  </testsuite>
+</testsuites>
