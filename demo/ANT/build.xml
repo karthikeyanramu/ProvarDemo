@@ -18,7 +18,7 @@
 		<Run-Test-Case provarHome="${provar.home}" 
 				projectPath="${testproject.home}" 
 				resultsPath="${testproject.results}" 
-				resultsPathDisposition="Replace" 
+				resultsPathDisposition="Overwrite" 
 				testEnvironment="" 
 				webBrowser="Chrome" 
 				webBrowserConfiguration="Full Screen"
@@ -26,19 +26,19 @@
 				webBrowserDeviceName="Full Screen" 
 				excludeCallableTestCases="true" 
 				salesforceMetadataCache="Reuse" 
-				projectCachePath="../../.provarCaches"
-				testOutputlevel="BASIC" 
-				pluginOutputlevel="WARNING"
+				projectCachePath="../.provarCaches"
+				testOutputlevel="DETAILED" 
+				pluginOutputlevel="SEVERE"
 				stopTestRunOnError="false"
 				secretsPassword="${secrets.password}"
 				testEnvironmentSecretsPassword="${testenvironment.secretspassword}"
 				invokeTestRunMonitor="true"
 				>
 		
-			<fileset id="testcases" dir="../tests"><include name="Account API.testcase"/></fileset><fileset id="testcases" dir="../tests"><include name="Test Case 2.testcase"/></fileset>
+			<fileset dir="../tests/Trial Tests/Lessons"></fileset>
 
-			<emailProperties sendEmail="true" primaryRecipients="karthikeyanramu@hotmail.com" ccRecipients="karthikeyan.ramu@cognizant.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="false"/>
-			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="false" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="false" includeDetailLogs="true" includeDiagnosticTrace="false" includeTestStepTime="false" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
+			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="kramu@amgen.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="false"/>
+			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="true" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="true" includeDetailLogs="false" includeDiagnosticTrace="false" includeTestStepTime="true" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
 		</Run-Test-Case>
 
 	</target>

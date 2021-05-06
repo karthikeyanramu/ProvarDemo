@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite failures="0" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="2" time="159.985" timestamp="Fri Apr 23 14:41:38 IST 2021">
+  <testsuite failures="1" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="5" time="330.778" timestamp="Tue May 04 16:05:13 IST 2021">
 	    <properties>
 		      <property name="excludeCallableTestCases" value="true" />
 
 		      <property name="testEnvironment" value="" />
 
-		      <property name="pluginOutputLevel" value="WARNING" />
+		      <property name="pluginOutputLevel" value="SEVERE" />
 
 		      <property name="projectPath" value=".." />
 
@@ -14,7 +14,7 @@
 
 		      <property name="resultsPathDisposition" value="Increment" />
 
-		      <property name="testOutputLevel" value="INFO" />
+		      <property name="testOutputLevel" value="FINE" />
 
 		      <property name="webBrowserType" value="Chrome" />
 
@@ -22,15 +22,26 @@
 
 		      <property name="webBrowserConfiguration" value="Full Screen" />
 
-		      <property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches" />
+		      <property name="projectCachePath" value="C:\Users\karth\git\Provar-Demo\demo\ANT\..\.provarCaches" />
 
 	    </properties>
 
-	    <testcase classname="tests/Account API.testcase" name="Account API.testcase" time="6.327">
+	    <testcase classname="tests/App_Launcher_TC.testcase" name="App_Launcher_TC.testcase" time="73.589">
 	</testcase>
 
-	    <testcase classname="tests/Test Case 2.testcase" name="Test Case 2.testcase" time="130.163">
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="52.667">
 	</testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="81.026">
+	</testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 4 Create Opportunity2.testcase" name="Lesson 4 Create Opportunity2.testcase" time="85.875">
+	</testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 5 Create Account and Contact.testcase" name="Exercise 5 Create Account and Contact.testcase" time="0.687">
+		      <failure message="Execution failed"><![CDATA[Connection details not found.  Connection Name: Admin]]></failure>
+
+	    </testcase>
 
   </testsuite>
 </testsuites>

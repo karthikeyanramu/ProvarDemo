@@ -10,10 +10,10 @@
   <connectionClasses>
     <connectionClass name="sf">
       <connections>
-        <connection name="Admin">
+        <connection name="SF_Admin">
           <summary/>
           <connectionUrls>
-            <connectionUrl secureStorageNodeId="5f9234d7-2a91-464f-a7dc-105cc72b72ad" url="sf:user=kramu711@provar.trialsbx1;environment=SANDBOX;clientId={clientId};clientSecret={clientSecret};lightningMode=true"/>
+            <connectionUrl secureStorageNodeId="5f9234d7-2a91-464f-a7dc-105cc72b72ad" url="sf:user=kramu711@provar.trialsbx1;password={password};environment=SANDBOX;clientId={clientId};clientSecret={clientSecret};lightningMode=true"/>
           </connectionUrls>
         </connection>
         <connection id="fe2cee92-452b-4732-912a-79d6b9739818" name="DevSandbox">

@@ -36,5 +36,14 @@ public class WebToCaseV3 {
 	@LinkType()
 	@FindBy(xpath = "//a[normalize-space(.)='New Account']")
 	public WebElement newAccount;
+	@ButtonType()
+	@FindBy(xpath = "//button[normalize-space(.)='App Launcher']")
+	public WebElement appLauncher;
+	@TextType()
+	@FindBy(xpath = "//input[@id='input-117']")
+	public WebElement searchAppsAndItems;
+	@LinkType()
+	@FindBy(xpath = "//a[@id='Account']")
+	public WebElement accounts;
 			
 }

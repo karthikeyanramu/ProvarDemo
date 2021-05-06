@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite failures="1" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="2" time="75.815" timestamp="Fri Apr 23 14:31:26 IST 2021">
+  <testsuite failures="1" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="5" time="334.365" timestamp="Tue May 04 15:56:49 IST 2021">
 	    <properties>
 		      <property name="excludeCallableTestCases" value="true" />
 
@@ -22,15 +22,24 @@
 
 		      <property name="webBrowserConfiguration" value="Full Screen" />
 
-		      <property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches" />
+		      <property name="projectCachePath" value="C:\Users\karth\git\Provar-Demo\demo\ANT\..\.provarCaches" />
 
 	    </properties>
 
-	    <testcase classname="tests/Account API.testcase" name="Account API.testcase" time="7.443">
+	    <testcase classname="tests/App_Launcher_TC.testcase" name="App_Launcher_TC.testcase" time="74.938">
 	</testcase>
 
-	    <testcase classname="tests/Test Case 2.testcase" name="Test Case 2.testcase" time="44.875">
-		      <failure message="Execution failed"><![CDATA[Failed to set the value of the Value parameter.  Cause: Error reading template file.  Path: C:\Users\karth\Provar\Workspace1\demo\ProvrTesting1, message: [FileNotFoundException: C:\Users\karth\Provar\Workspace1\demo\ProvrTesting1 (The system cannot find the file specified)]]]></failure>
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="56.713">
+	</testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="80.335">
+	</testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 4 Create Opportunity2.testcase" name="Lesson 4 Create Opportunity2.testcase" time="84.022">
+	</testcase>
+
+	    <testcase classname="tests/Trial Tests\Solved Exercises\Exercise 5 Create Account and Contact.testcase" name="Exercise 5 Create Account and Contact.testcase" time="0.74">
+		      <failure message="Execution failed"><![CDATA[Connection details not found.  Connection Name: Admin]]></failure>
 
 	    </testcase>
 

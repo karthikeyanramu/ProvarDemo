@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="demo/tests" tests="2" failures="1" skipped="0" hostname="LAPTOP-72V7EMJO" time="193.211" timestamp="Fri Apr 23 14:27:19 IST 2021">
+<testsuite name="demo/tests" tests="5" failures="1" skipped="0" hostname="LAPTOP-72V7EMJO" time="302.037" timestamp="Tue May 04 15:47:11 IST 2021">
 	<properties>
 		<property name="excludeCallableTestCases" value="true"/>
 		<property name="testEnvironment" value=""/>
@@ -11,11 +11,17 @@
 		<property name="webBrowserType" value="Chrome"/>
 		<property name="resultsPath" value="../ANT/Results"/>
 		<property name="webBrowserConfiguration" value="Full Screen"/>
-		<property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches"/>
+		<property name="projectCachePath" value="C:\Users\karth\git\Provar-Demo\demo\ANT\..\.provarCaches"/>
 	</properties>
-	<testcase classname="tests/Account API.testcase" name="Account API.testcase" time="132.465">
+	<testcase classname="tests/App_Launcher_TC.testcase" name="App_Launcher_TC.testcase" time="75.166">
 	</testcase>
-	<testcase classname="tests/Test Case 2.testcase" name="Test Case 2.testcase" time="56.926">
-		<failure message="Execution failed"><![CDATA[Failed to set the value of the Value parameter.  Cause: Error reading template file.  Path: C:\Users\karth\Provar\Workspace1\demo\ProvrTesting1, message: [FileNotFoundException: C:\Users\karth\Provar\Workspace1\demo\ProvrTesting1 (The system cannot find the file specified)]]]></failure>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="51.508">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="74.54">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 4 Create Opportunity2.testcase" name="Lesson 4 Create Opportunity2.testcase" time="83.154">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 5 Create Account and Contact.testcase" name="Exercise 5 Create Account and Contact.testcase" time="0.788">
+		<failure message="Execution failed"><![CDATA[Connection details not found.  Connection Name: Admin]]></failure>
 	</testcase>
 </testsuite>

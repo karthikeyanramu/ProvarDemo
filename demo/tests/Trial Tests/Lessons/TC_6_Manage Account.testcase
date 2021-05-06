@@ -5,7 +5,7 @@
     <apiCall apiId="com.provar.plugins.forcedotcom.core.testapis.ApexConnect" name="ApexConnect" testItemId="3" title="Salesforce Connect: SF_Admin (Test)">
       <arguments>
         <argument id="connectionName">
-          <value class="value" valueClass="string">Admin</value>
+          <value class="value" valueClass="string">SF_Admin</value>
         </argument>
         <argument id="resultName">
           <value class="value" valueClass="string">SF_Admin</value>
@@ -383,7 +383,7 @@
                   <value class="value" valueClass="boolean">false</value>
                 </argument>
                 <argument id="captureBefore">
-                  <value class="value" valueClass="boolean">false</value>
+                  <value class="value" valueClass="string">true</value>
                 </argument>
                 <argument id="captureAfter">
                   <value class="value" valueClass="boolean">true</value>
@@ -541,7 +541,7 @@
         </argument>
       </arguments>
     </apiCall>
-    <caseCall testCaseId="a468eebe-48cf-4f86-b82d-24f4dfbab941" testCasePath="tests/Trial Tests/Lessons/Lesson 6 Callable Create Opportunity.testcase" testItemId="31">
+    <caseCall testCaseId="a468eebe-48cf-4f86-b82d-24f4dfbab941" testCasePath="tests/Trial Tests/Lessons/TC_5_Callable Create Opportunity.testcase" testItemId="31">
       <arguments>
         <argument id="Name">
           <value class="value" valueClass="string">Opp ProvarTesting</value>

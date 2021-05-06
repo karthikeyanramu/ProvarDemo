@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="demo/tests" tests="1" failures="0" skipped="0" hostname="LAPTOP-72V7EMJO" time="34.881" timestamp="Fri Apr 23 13:52:56 IST 2021">
+<testsuite name="demo/tests" tests="3" failures="0" skipped="0" hostname="LAPTOP-72V7EMJO" time="369.291" timestamp="Tue May 04 15:17:15 IST 2021">
 	<properties>
 		<property name="excludeCallableTestCases" value="true"/>
 		<property name="testEnvironment" value=""/>
@@ -11,8 +11,12 @@
 		<property name="webBrowserType" value="Chrome"/>
 		<property name="resultsPath" value="../ANT/Results"/>
 		<property name="webBrowserConfiguration" value="Full Screen"/>
-		<property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches"/>
+		<property name="projectCachePath" value="C:\Users\karth\git\Provar-Demo\demo\ANT\..\.provarCaches"/>
 	</properties>
-	<testcase classname="tests/Account API.testcase" name="Account API.testcase" time="34.872">
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="54.58">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="72.426">
+	</testcase>
+	<testcase classname="tests/App_Launcher_TC.testcase" name="App_Launcher_TC.testcase" time="208.931">
 	</testcase>
 </testsuite>

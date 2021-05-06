@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite failures="0" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="2" time="137.299" timestamp="Fri Apr 23 14:51:05 IST 2021">
+  <testsuite failures="2" hostname="LAPTOP-72V7EMJO" id="0" name="demo/tests" package="" skipped="0" tests="2" time="15.114" timestamp="Tue May 04 16:38:19 IST 2021">
 	    <properties>
 		      <property name="excludeCallableTestCases" value="true" />
 
 		      <property name="testEnvironment" value="" />
 
-		      <property name="pluginOutputLevel" value="WARNING" />
+		      <property name="pluginOutputLevel" value="SEVERE" />
 
 		      <property name="projectPath" value=".." />
 
@@ -14,7 +14,7 @@
 
 		      <property name="resultsPathDisposition" value="Increment" />
 
-		      <property name="testOutputLevel" value="INFO" />
+		      <property name="testOutputLevel" value="FINE" />
 
 		      <property name="webBrowserType" value="Chrome" />
 
@@ -22,15 +22,19 @@
 
 		      <property name="webBrowserConfiguration" value="Full Screen" />
 
-		      <property name="projectCachePath" value="C:\Users\karth\Provar\Workspace1\demo\ANT\..\..\.provarCaches" />
+		      <property name="projectCachePath" value="C:\Users\karth\git\Provar-Demo\demo\ANT\..\.provarCaches" />
 
 	    </properties>
 
-	    <testcase classname="tests/Account API.testcase" name="Account API.testcase" time="7.405">
-	</testcase>
+	    <testcase classname="tests/Trial Tests\API\CreateAccount_API.testcase" name="CreateAccount_API.testcase" time="6.817">
+		      <failure message="Execution failed"><![CDATA[Failed to create Object.  Error Messages: entity is deleted]]></failure>
 
-	    <testcase classname="tests/Test Case 2.testcase" name="Test Case 2.testcase" time="126.439">
-	</testcase>
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\API\Delete_Account_API.testcase" name="Delete_Account_API.testcase" time="7.338">
+		      <failure message="Execution failed"><![CDATA[Failed to delete Object.  Error Messages: entity is deleted]]></failure>
+
+	    </testcase>
 
   </testsuite>
 </testsuites>
