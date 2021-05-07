@@ -35,9 +35,9 @@
 				invokeTestRunMonitor="true"
 				>
 		
-			<fileset dir="../tests/Trial Tests/API"><include name="CreateAccount_API.testcase"/></fileset><fileset dir="../tests/Trial Tests/API"><include name="Delete_Account_API.testcase"/></fileset>
+			<fileset id="testcases" dir="../tests/Trial Tests/API"><include name="CreateAccount_API.testcase"/></fileset><fileset id="testcases" dir="../tests/Trial Tests/API"><include name="Delete_Account_API.testcase"/></fileset>
 
-			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="kramu@amgen.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="false"/>
+			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="kramu@amgen.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
 			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="true" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="true" includeDetailLogs="false" includeDiagnosticTrace="false" includeTestStepTime="true" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
 		</Run-Test-Case>
 
