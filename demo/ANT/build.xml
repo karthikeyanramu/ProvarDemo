@@ -37,8 +37,8 @@
 		
 			<fileset dir="../tests/Trial Tests/Lessons"><include name="TC_1_Create Lead.testcase"/></fileset><fileset dir="../tests/Trial Tests/Lessons"><include name="TC_2_Create Opportunity.testcase"/></fileset>
 
-			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="kramu@amgen.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
-			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="true" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="false" includeDetailLogs="true" includeDiagnosticTrace="false" includeTestStepTime="true" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
+			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="kramu@amgen.com,ekesavan@amgen.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
+			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="false" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="true" includeDetailLogs="false" includeDiagnosticTrace="false" includeTestStepTime="true" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
 		</Run-Test-Case>
 
 	</target>

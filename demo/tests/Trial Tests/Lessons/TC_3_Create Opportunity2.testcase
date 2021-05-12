@@ -614,7 +614,9 @@
                 <argument id="afterWait">
                   <value class="uiWait" uri="default"/>
                 </argument>
-                <argument id="autoRetry"/>
+                <argument id="autoRetry">
+                  <value class="uiWait" uri="ui:wait:autoRetry:timeout=10"/>
+                </argument>
               </arguments>
               <generatedParameters>
                 <apiParam group="value" modelBinding="sf:ui:binding:object?object=Opportunity&amp;field=Amount" name="value" seq="10000" title="Value">
