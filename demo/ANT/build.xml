@@ -35,9 +35,9 @@
 				invokeTestRunMonitor="true"
 				>
 		
-			<fileset dir="../tests/Trial Tests/Lessons"><include name="TC_1_Create Lead.testcase"/></fileset><fileset dir="../tests/Trial Tests/Lessons"><include name="TC_2_Create Opportunity.testcase"/></fileset>
+			<fileset dir="../tests/Trial Tests/POC"><include name="TC_4_Cases.testcase"/></fileset>
 
-			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="kramu@amgen.com,ekesavan@amgen.com" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
+			<emailProperties sendEmail="true" primaryRecipients="karthikeyan.ramu@cognizant.com" ccRecipients="" bccRecipients="" emailSubject="Provar test run report" attachExecutionReport="true" attachZip="true"/>
 			<attachmentProperties includeAllFailuresInSummary="true" includeBdd="false" includeTestCasePathHierarchy="true" includeTestCaseShowSummary="true" includeBasicLogs="true" includeDetailLogs="false" includeDiagnosticTrace="false" includeTestStepTime="true" includeNoScreenshot="false" includeScreenshotThumbnail="false" includeFullScreenShot="true"/>
 		</Run-Test-Case>
 
